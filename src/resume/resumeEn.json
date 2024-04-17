@@ -1,0 +1,243 @@
+{
+  "firstName": "Nicolas",
+  "lastName": "Assouad",
+  "email": "nicolas@assouad.com",
+  "linkedIn": "nicolas-assouad-02548412a/",
+  "github": "fondation451",
+  "description": "I am a software engineer and entrepreneur with a deep understanding of web technology and a keen eye for quality in software development, from user experience to coding. My diverse experiences have taken me through research, scale-ups, start-ups, and both public and private entrepreneurship.",
+  "skills": [
+    { "category": "Language", "name": "TS" },
+    { "category": "Language", "name": "JS" },
+    { "category": "Language", "name": "Rust" },
+    { "category": "Language", "name": "OCaml" },
+    { "category": "Language", "name": "Python" },
+    { "category": "Language", "name": "C/C++" },
+    { "category": "Framework", "name": "React" },
+    { "category": "Framework", "name": "Next.js" },
+    { "category": "Framework", "name": "Vue" },
+    { "category": "Framework", "name": "Svelte" },
+    { "category": "Framework", "name": "Angular" },
+    { "category": "Database", "name": "MongoDb" },
+    { "category": "Database", "name": "PostgreSQL" },
+    { "category": "Tool", "name": "Git" },
+    { "category": "Tool", "name": "Docker" },
+    { "category": "DevOps", "name": "GCP" },
+    { "category": "DevOps", "name": "AWS" },
+    { "category": "DevOps", "name": "Vercel" },
+    { "category": "DevOps", "name": "Deno Deploy" },
+    { "category": "DevOps", "name": "Ansible" },
+    { "category": "Soft Skill", "name": "Management" },
+    { "category": "Soft Skill", "name": "Mentoring" },
+    { "category": "Soft Skill", "name": "Autonomy" },
+    { "category": "Soft Skill", "name": "Initiative" },
+    { "category": "Soft Skill", "name": "Communication" }
+  ],
+  "experiences": [
+    {
+      "start": "10/2023",
+      "end": "Present",
+      "title": "Senior Software Engineer",
+      "skills": ["C#", "TS", "Angular", "SQL", "Git"],
+      "company": "Lucca",
+      "location": "Paris",
+      "link": "https://www.lucca-hr.com/",
+      "body": "",
+      "facts": ["Transfer of Compwise features inside Lucca's products"]
+    },
+    {
+      "start": "10/2022",
+      "end": "10/2023",
+      "title": "Co-founder & CTO",
+      "skills": [
+        "TS",
+        "NodeJs",
+        "GCP run",
+        "MongoDb",
+        "React",
+        "Git",
+        "Docker",
+        "Entrepreneurship",
+        "User interview",
+        "UX research"
+      ],
+      "company": "Compwise (bought by Lucca)",
+      "location": "Paris",
+      "link": "https://www.lucca.fr/blog/lucca-acquisition-startup-compwise/",
+      "body": "Compwise is a platform for managing compensation policy.",
+      "facts": [
+        "Fast execution, ideation to MVP: 1 month.",
+        "100+ user interviews done with HRs, CFOs, and CEOs.",
+        "Design, architecture and implementation of the different versions of the platform.",
+        "100 000+ employee salary data collected to build our benchmark.",
+        "200 companies in free trial / 5 companies in paying plans.",
+        {
+          "value": "Bought by Lucca",
+          "link": "https://www.lucca.fr/blog/lucca-acquisition-startup-compwise/"
+        }
+      ]
+    },
+    {
+      "start": "09/2022",
+      "end": "12/2022",
+      "title": "Founder in Residence",
+      "skills": ["Entrepreneurship", "User interview", "UX research"],
+      "company": "Entrepreneur First",
+      "location": "Paris",
+      "link": "https://www.joinef.com/",
+      "body": "",
+      "facts": ["€100k investment to support the growth of Compwise"]
+    },
+    {
+      "start": "05/2022",
+      "end": "08/2022",
+      "title": "Senior Software Engineer",
+      "skills": ["TS", "NodeJs", "AWS", "Lambda", "DynamoDb", "React", "Git"],
+      "company": "Joko",
+      "location": "Paris",
+      "link": "https://www.joko.com/en",
+      "body": "",
+      "facts": [
+        "Internationalization of the chrome extension and the web app.",
+        "Conducting fit and technical interviews for new engineers."
+      ]
+    },
+    {
+      "start": "07/2021",
+      "end": "05/2022",
+      "title": "Senior Software Engineer",
+      "skills": ["TS", "NodeJs", "Docker", "Bash", "Git", "PostgreSQL", "React", "Python"],
+      "company": "Mindmesh (YC S21)",
+      "location": "Paris",
+      "link": "https://www.mindmesh.com/",
+      "body": "Mindmesh is an early stage international startup based in Boston and Paris which develop a productivity webapp for product managers.",
+      "facts": [
+        "User research with the CEO and the CTO.",
+        "Implementation of successive MVPs (3 pivots).",
+        "Migration of the drive/slack/jira integrations from Python to Typescript fully typed.",
+        "Migration of the rich text editor framework from Draft.js to Plate and open source contributions.",
+        "Data visualization with D3.js.",
+        "Enforce good practice (introduce strict Typescript option and linter in an existing codebase, code review)."
+      ]
+    },
+    {
+      "start": "09/2020",
+      "end": "06/2021",
+      "title": "Software Engineer",
+      "skills": ["TS", "NodeJs", "Docker", "Bash", "Git", "MongoDb", "React", "GraphQL"],
+      "company": "Cour de Cassation",
+      "location": "Paris",
+      "link": "https://eig.etalab.gouv.fr/defis/label/",
+      "body": "Inside the program \"Entrepreneur d'Intérêt général\", I worked in the Court of Cassation to open justice data.",
+      "facts": [
+        "Conducted over 40 user interviews. Weekly meeting with the Court of Cassation's executive officers to set up the roadmap.",
+        {
+          "value": "Inside a pluridisciplinary team of 4 people, I led the design and the architecture of an open source application, LABEL, to annotate and anonymize justice decisions",
+          "link": "https://github.com/Cour-de-cassation/label"
+        },
+        "Mentoring around software quality.",
+        "First MVP released in 3 months.",
+        "Best software development practices: mono-repository, high test coverage, strict typing, containerization.",
+        "Used by 20 public agents daily, this new tool increased the number of annotated justice decisions per user and per day from 15 to 100.",
+        "Succeeded handover, the project is still under active development."
+      ]
+    },
+    {
+      "start": "02/2019",
+      "end": "09/2020",
+      "title": "Software Engineer",
+      "skills": ["JS", "NodeJs", "Docker", "Bash", "Git", "MongoDb", "Vue"],
+      "company": "360Learning",
+      "location": "Paris",
+      "link": "https://360learning.com/",
+      "body": "",
+      "facts": [
+        "Design, development, and production launch of the integrations to third party online courses platforms (Coursera, LinkedIn Learning, Udemy, Edx,...). Thousands of courses were synchronized daily.",
+        "Redesign of the architecture of the connectors to the APIs. The time to develop a new connector for a new third party platform went down from 1 month of work to 2 days with a complete test coverage.",
+        "More than 30 technical interviews realized for the the recruiting process of other software engineers."
+      ]
+    },
+    {
+      "start": "03/2018",
+      "end": "09/2018",
+      "title": "Research Intern",
+      "skills": ["OCaml", "C", "Assembly", "Maxima", "Git"],
+      "company": "LIP6, UPMC",
+      "location": "Paris",
+      "link": "https://www.lip6.fr/?LANG=en",
+      "body": "",
+      "facts": [
+        "Automatic memory consumption analysis of program with static analysis.",
+        {
+          "value": "Implemention a functional prototype for a subset of the OCaml language",
+          "link": "https://github.com/fondation451/ocaml_region"
+        }
+      ]
+    },
+    {
+      "start": "03/2017",
+      "end": "09/2017",
+      "title": "Research Intern",
+      "skills": ["OCaml", "C", "Assembly", "Git"],
+      "company": "OCaml Labs, Cambrigde University",
+      "location": "Cambrigde",
+      "link": "https://ocamllabs.io/",
+      "body": "",
+      "facts": [
+        {
+          "value": "Design and development of an open source lock-free data structure library. A lock-free data structure is a data structure which can be used safely without lock or \"mutex\" in a parallel environment",
+          "link": "https://github.com/ocaml-multicore/lockfree"
+        }
+      ]
+    },
+    {
+      "start": "06/2016",
+      "end": "08/2016",
+      "title": "Research Intern",
+      "skills": ["JS", "Python", "SQL", "Git"],
+      "company": "STEEP, INRIA",
+      "location": "Grenoble",
+      "link": "https://steep.inria.fr/en/",
+      "body": "",
+      "facts": [
+        {
+          "value": "Development of a web application implementing algorithms for projecting greenhouse gas consumption, constrained by different scenarios from the COP21.",
+          "link": "http://redem.inria.fr/"
+        }
+      ]
+    }
+  ],
+  "studies": [
+    {
+      "start": "2015",
+      "end": "2018",
+      "diploma": "Master's degree, Computer science (MPRI) - \"parcours normalien\"",
+      "school": "Ecole Normale Supérieure",
+      "location": "Paris",
+      "description": "My studies focused on functional programming, compiler design, cryptography, networking and software engineering."
+    }
+  ],
+  "speakingLanguages": [
+    {
+      "language": "French",
+      "level": "Mother tongue"
+    },
+    {
+      "language": "English",
+      "level": "Business fluent"
+    },
+    {
+      "language": "Spanish",
+      "level": "Intermediate"
+    }
+  ],
+  "interests": [
+    {
+      "title": "Music",
+      "items": ["15 years of guitar and singing", "Music writing"]
+    },
+    {
+      "title": "Sport",
+      "items": ["Hiking", "Bike", "Tennis", "Ski", "Skateboard"]
+    }
+  ]
+}

@@ -1,0 +1,199 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>{template__pageTitle}</title>
+    <meta name="author" content="Nicolas Assouad" />
+    <meta name="description" content="Personal Nicolas Assouad website" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="icon" type="image/x-icon" href="{template__faviconPath}" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+      rel="stylesheet"
+    />
+
+    <style>
+      body {
+        margin: 0px;
+      }
+
+      * {
+        font-family: "Space Mono", monospace;
+        font-style: normal;
+      }
+
+      a {
+        color: #000000;
+        text-decoration: none;
+      }
+
+      code {
+        background-color: #e5e7eb;
+        border-radius: 4px;
+        padding: 0px 4px;
+        font-family: inherit;
+      }
+
+      .text-size-s {
+        font-size: 12px;
+        line-height: 157%;
+      }
+
+      .text-size-m {
+        font-size: 14px;
+        line-height: 157%;
+      }
+
+      .text-size-l {
+        font-size: 16px;
+        line-height: 162%;
+      }
+
+      .text-size-xl {
+        font-size: 20px;
+        line-height: 167%;
+      }
+
+      .text-size-xxl {
+        font-size: 32px;
+        line-height: 167%;
+      }
+
+      .text-size-xxxl {
+        font-size: 40px;
+        line-height: 167%;
+      }
+
+      .component-tag {
+        display: flex;
+        border-radius: 8px;
+        border: 2px solid #000000;
+        padding: 2px 8px;
+        color: #000000;
+        align-content: center;
+        justify-content: "center";
+        width: "fit-content";
+        font-size: 12px;
+        line-height: 157%;
+        font-weight: 700;
+      }
+
+      .component-card {
+        width: 100%;
+        border: 1px solid #e5e7eb;
+        border-radius: 8px;
+        background-color: #ffffff;
+        padding: 16px;
+        box-sizing: border-box;
+      }
+
+      .component-code {
+        background-color: #e5e7eb;
+        border-radius: 4px;
+        padding: 0px 4px;
+        font-family: inherit;
+        width: fit-content;
+      }
+    </style>
+  </head>
+  <body>
+    <main
+      style="
+        display: flex;
+        flex-direction: column;
+        padding: 12px 20px;
+        gap: 12px;
+        height: 100vh;
+        box-sizing: border-box;
+        justify-content: space-between;
+      "
+    >
+      <div style="display: flex; flex-direction: column; gap: 32px; overflow: scroll">
+        <!-- >>>> Header -->
+        <div style="display: flex; flex-direction: column">
+          <div style="display: flex; justify-content: space-between; align-items: center; width: 100%">
+            <div class="text-size-xxxl">{template__fullName}</div>
+            <address style="display: flex; gap: 20px">
+              <a
+                href="{template__resumePath}"
+                target="_blank"
+                style="display: flex; align-items: center"
+                class="text-size-xl"
+              >
+                {template__resume}
+              </a>
+              <a
+                href="https://github.com/fondation451"
+                target="_blank"
+                style="display: flex; align-items: center"
+                class="text-size-xl"
+              >
+                <img src="{template__githubIconPath}" alt="Github" style="font-size: 24px; min-width: 24px" />
+              </a>
+              <a
+                href="https://www.linkedin.com/in/nicolas-assouad-02548412a/"
+                target="_blank"
+                style="display: flex; align-items: center"
+                class="text-size-xl"
+              >
+                <img src="{template__linkedInIconPath}" alt="LinkedIn" style="font-size: 24px; min-width: 24px" />
+              </a>
+            </address>
+          </div>
+          <div class="text-size-l" style="font-weight: 700">{template__title}</div>
+        </div>
+        <!-- <<<< Header -->
+
+        <div style="display: flex; gap: 12px; flex-wrap: wrap">
+          <!-- >>>> SiteMap -->
+          <nav
+            class="text-size-xl"
+            style="
+              position: sticky;
+              top: 0px;
+              display: flex;
+              gap: 32px;
+              flex-wrap: wrap;
+              align-content: flex-start;
+              flex: 1;
+              min-width: 200px;
+              height: fit-content;
+              background-color: #ffffff;
+              padding-top: 16px;
+              padding-bottom: 16px;
+            "
+          >
+            <a href="{template__aboutPath}" style="width: fit-content; cursor: pointer">{template__about}</a
+            ><a href="{template__experiencePath}" style="width: fit-content; cursor: pointer">{template__experience}</a
+            ><a href="{template__blogPath}" style="width: fit-content; cursor: pointer">{template__blog}</a>
+          </nav>
+          <!-- <<<< SiteMap -->
+          <div
+            style="
+              display: flex;
+              gap: 20px;
+              flex-direction: column;
+              flex: 100;
+              min-width: 540px;
+              text-align: justify;
+              padding: 20px;
+            "
+          >
+            {template__pageContent}
+          </div>
+        </div>
+      </div>
+
+      <!-- >>>> Footer -->
+      <div style="display: flex; flex-direction: column">
+        <div style="display: flex; justify-content: flex-end; align-items: center; width: 100%; gap: 16px">
+          <a href="{template__englishPath}">{template__english}</a>
+          <a href="{template__frenchPath}">{template__french}</a>
+        </div>
+      </div>
+      <!-- <<<< Footer -->
+    </main>
+  </body>
+</html>

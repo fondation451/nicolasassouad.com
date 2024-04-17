@@ -1,0 +1,243 @@
+{
+  "firstName": "Nicolas",
+  "lastName": "Assouad",
+  "email": "nicolas@assouad.com",
+  "linkedIn": "nicolas-assouad-02548412a/",
+  "github": "fondation451",
+  "description": "Je suis ingénieur logiciel et entrepreneur. Expert en technologie web, je suis particulièrement attentif à la qualité dans le développement logiciel, que ce soit au niveau de l'UX ou du code. Au cours de mes différentes expériences, j'ai évolué dans le monde de la recherche, des scale-ups, des start-ups et de l'entrepreneuriat public et privé.",
+  "skills": [
+    { "category": "Langage", "name": "TS" },
+    { "category": "Langage", "name": "JS" },
+    { "category": "Langage", "name": "Rust" },
+    { "category": "Langage", "name": "OCaml" },
+    { "category": "Langage", "name": "Python" },
+    { "category": "Langage", "name": "C/C++" },
+    { "category": "Framework", "name": "React" },
+    { "category": "Framework", "name": "Next.js" },
+    { "category": "Framework", "name": "Vue" },
+    { "category": "Framework", "name": "Svelte" },
+    { "category": "Framework", "name": "Angular" },
+    { "category": "Base de données", "name": "MongoDb" },
+    { "category": "Base de données", "name": "PostgreSQL" },
+    { "category": "Outil", "name": "Git" },
+    { "category": "Outil", "name": "Docker" },
+    { "category": "DevOps", "name": "GCP" },
+    { "category": "DevOps", "name": "AWS" },
+    { "category": "DevOps", "name": "Vercel" },
+    { "category": "DevOps", "name": "Deno Deploy" },
+    { "category": "DevOps", "name": "Ansible" },
+    { "category": "Soft Skill", "name": "Management" },
+    { "category": "Soft Skill", "name": "Mentorat" },
+    { "category": "Soft Skill", "name": "Autonomie" },
+    { "category": "Soft Skill", "name": "Initiative" },
+    { "category": "Soft Skill", "name": "Communication" }
+  ],
+  "experiences": [
+    {
+      "start": "10/2023",
+      "end": "Aujourd'hui",
+      "title": "Senior Software Engineer",
+      "skills": ["C#", "TS", "Angular", "SQL", "Git"],
+      "company": "Lucca",
+      "location": "Paris",
+      "link": "https://www.lucca.fr/",
+      "body": "",
+      "facts": ["Passation de Compwise à Lucca"]
+    },
+    {
+      "start": "10/2022",
+      "end": "10/2023",
+      "title": "Co-founder & CTO",
+      "skills": [
+        "TS",
+        "NodeJs",
+        "GCP run",
+        "MongoDb",
+        "React",
+        "Git",
+        "Docker",
+        "Entreprenariat",
+        "Entretien utilisateur",
+        "UX research"
+      ],
+      "company": "Compwise (acquis par Lucca)",
+      "location": "Paris",
+      "link": "https://www.lucca.fr/blog/lucca-acquisition-startup-compwise/",
+      "body": "Compwise est une plateforme de pilotage de la politique salariale",
+      "facts": [
+        "Exécution rapide : l'idéation et la réalisation du premier MVP ont pris 1 mois.",
+        "Plus de 100 entretiens utilisateurs réalisés avec des RH, des DAF et des CEO.",
+        "Conception et développement des différentes versions de la plateforme.",
+        "Plus de 100 000 données de salaires collectées dans la plateforme pour construire notre benchmark de salaire.",
+        "200 entreprises en essai gratuit / 5 entreprises en version payante.",
+        {
+          "value": "Acquisition par Lucca",
+          "link": "https://www.lucca.fr/blog/lucca-acquisition-startup-compwise/"
+        }
+      ]
+    },
+    {
+      "start": "09/2022",
+      "end": "12/2022",
+      "title": "Founder in Residence",
+      "skills": ["Entreprenariat", "Entretien utilisateur", "UX research"],
+      "company": "Entrepreneur First",
+      "location": "Paris",
+      "link": "https://www.joinef.com/",
+      "body": "",
+      "facts": ["Investissement de 100k€ pour accompagner la croissance de Compwise"]
+    },
+    {
+      "start": "05/2022",
+      "end": "08/2022",
+      "title": "Senior Software Engineer",
+      "skills": ["TS", "NodeJs", "AWS", "Lambda", "DynamoDb", "React", "Git"],
+      "company": "Joko",
+      "location": "Paris",
+      "link": "https://www.joko.com",
+      "body": "",
+      "facts": [
+        "Internationalisation de l'extension Chrome et de l'application web.",
+        "Réalisation d'entretiens de \"fit\" et techniques pour de nouveaux ingénieurs."
+      ]
+    },
+    {
+      "start": "07/2021",
+      "end": "05/2022",
+      "title": "Senior Software Engineer",
+      "skills": ["TS", "NodeJs", "Docker", "Bash", "Git", "PostgreSQL", "React", "Python"],
+      "company": "Mindmesh (YC S21)",
+      "location": "Paris",
+      "link": "https://www.mindmesh.com/",
+      "body": "Mindmesh est une startup early-stage internationale basée entre Boston et Paris, qui développe une application de productivité pour les product managers.",
+      "facts": [
+        "Recherche utilisateur avec le CEO et le CTO.",
+        "Implémentation des MVP successifs (3 pivots).",
+        "Migration des intégrations Drive/Slack/Jira de Python vers Typescript.",
+        "Migration du framework d'édition de texte de Draft.js vers Plate et contributions open source à Plate.",
+        "Visualisation de données avec D3.js.",
+        "Mise en place des bonnes pratiques d'ingénierie logicielle (option strict de Typescript et linter sur la base de code existante, revue de code)."
+      ]
+    },
+    {
+      "start": "09/2020",
+      "end": "06/2021",
+      "title": "Software Engineer - Entrepreneur d’intérêt général",
+      "skills": ["TS", "NodeJs", "Docker", "Bash", "Git", "MongoDb", "React", "GraphQL"],
+      "company": "Cour de Cassation",
+      "location": "Paris",
+      "link": "https://eig.etalab.gouv.fr/defis/label/",
+      "body": "Au sein du programme \"Entrepreneur d’intérêt général\", j'ai travaillé sur l'ouverture des données de justice à la Cour de cassation",
+      "facts": [
+        "Plus de 40 entretiens utilisateurs réalisés. Réunions hebdomadaires avec le comité de pilotage du projet à la Cour de cassation pour affiner la feuille de route. ",
+        {
+          "value": "Au sein d'une équipe pluridisciplinaire de 4 personnes, j'ai dirigé la conception, le développement et la mise en production d'une application open source, LABEL, permettant d'annoter et d'anonymiser des décisions de justice",
+          "link": "https://github.com/Cour-de-cassation/label"
+        },
+        "Mentorat et sensibilisation aux problématiques de qualité logicielle.",
+        "Premier MVP en 3 mois.",
+        "Bonnes pratiques de développement logiciel : mono-repository, haute couverture de tests, typage stricte, conteneurisation.",
+        "Utilisé par 20 agents au quotidien, ce nouvel outil a augmenté le nombre de décisions annotées par jour et par utilisateur de 15 à 100.",
+        "Passation réussie, le projet est toujours en activité."
+      ]
+    },
+    {
+      "start": "02/2019",
+      "end": "09/2020",
+      "title": "Software Engineer",
+      "skills": ["Javascript", "NodeJs", "Docker", "Bash", "Git", "MongoDb", "Vue"],
+      "company": "360Learning",
+      "location": "Paris",
+      "link": "https://360learning.com/",
+      "body": "",
+      "facts": [
+        "Conception, développement et mise en production des intégrations aux plateformes de cours en ligne (Coursera, LinkedIn Learning, Udemy, Edx,...) permettant la synchronisation quotidienne de milliers de cours.",
+        "Amélioration de l'architecture des connecteurs API. Le temps de développement d'un nouveau connecteur est passé de 1 mois à 2 jours, avec une couverture de test complète.",
+        "Plus de 30 entretiens techniques réalisés dans le cadre du recrutement de nouveaux ingénieurs."
+      ]
+    },
+    {
+      "start": "03/2018",
+      "end": "09/2018",
+      "title": "Stagiaire de Recherche",
+      "skills": ["OCaml", "C", "Assembly", "Maxima", "Git"],
+      "company": "LIP6, UPMC",
+      "location": "Paris",
+      "link": "https://www.lip6.fr/",
+      "body": "",
+      "facts": [
+        "Analyse statique de la consommation mémoire d'un programme informatique.",
+        {
+          "value": "Implémentation d'un prototype fonctionnel sur un sous-ensemble du langage OCaml",
+          "link": "https://github.com/fondation451/ocaml_region"
+        }
+      ]
+    },
+    {
+      "start": "03/2017",
+      "end": "09/2017",
+      "title": "Stagiaire de Recherche",
+      "skills": ["OCaml", "C", "Assembly", "Git"],
+      "company": "OCaml Labs, Cambrigde University",
+      "location": "Cambrigde",
+      "link": "https://ocamllabs.io/",
+      "body": "",
+      "facts": [
+        {
+          "value": "Conception et développement d'une bibliothèque open source de structures de données lock-free en OCaml. Une structure de données lock-free est une structure pouvant être utilisée de manière sécurisée sans verrou ou \"mutex\" dans un environnement parallèle",
+          "link": "https://github.com/ocaml-multicore/lockfree"
+        }
+      ]
+    },
+    {
+      "start": "06/2016",
+      "end": "08/2016",
+      "title": "Stagiaire de Recherche",
+      "skills": ["Javascript", "Python", "SQL", "Git"],
+      "company": "STEEP, INRIA",
+      "location": "Grenoble",
+      "link": "https://steep.inria.fr/",
+      "body": "",
+      "facts": [
+        {
+          "value": "Développement d'une application web implémentant des algorithmes de projection de la consommation de gaz à effet de serre, contraints par différents scénarios issus de la COP21.",
+          "link": "http://redem.inria.fr/"
+        }
+      ]
+    }
+  ],
+  "studies": [
+    {
+      "start": "2015",
+      "end": "2018",
+      "diploma": "Master, Informatique (MPRI) - \"parcours normalien\"",
+      "school": "Ecole Normale Supérieure",
+      "location": "Paris",
+      "description": "Mon master est centré sur la programmation fonctionnelle, la conception de compilateurs, la cryptographie, les réseaux et l'ingénierie logicielle."
+    }
+  ],
+  "speakingLanguages": [
+    {
+      "language": "Français",
+      "level": "Langue maternelle"
+    },
+    {
+      "language": "Anglais",
+      "level": "Professionnelle"
+    },
+    {
+      "language": "Espagnol",
+      "level": "Niveau intermédiaire"
+    }
+  ],
+  "interests": [
+    {
+      "title": "Musique",
+      "items": ["15 années de guitare et de chant", "Composition musicale"]
+    },
+    {
+      "title": "Sport",
+      "items": ["Randonnée", "Vélo", "Tennis", "Ski", "Skateboard"]
+    }
+  ]
+}

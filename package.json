@@ -1,0 +1,35 @@
+{
+  "name": "nicolasassouad",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "build:cv": "pnpm script src/scripts/buildResumes.ts && pdflatex cv_en.tex && pdflatex cv_fr.tex && rm cv_en.aux && rm cv_fr.aux && rm cv_en.log && rm cv_fr.log && rm cv_en.out && rm cv_fr.out && rm cv_en.tex && rm cv_fr.tex && mv cv_en.pdf src/assets/cvEn.pdf && mv cv_fr.pdf src/assets/cvFr.pdf",
+    "build:website": "pnpm script src/scripts/buildWebsite.ts",
+    "build": "pnpm build:cv && pnpm build:website",
+    "check": "tsc --noEmit",
+    "dev": "http-server ./web",
+    "lint": "eslint '{test,src}/**/*.{js,ts,tsx}' --quiet",
+    "quality": "pnpm check && pnpm lint && pnpm build",
+    "script": "node -r @swc-node/register"
+  },
+  "dependencies": {
+    "lodash": "^4.17.21",
+    "rimraf": "^5.0.5",
+    "string-template": "^1.0.0"
+  },
+  "devDependencies": {
+    "@swc-node/register": "^1.9.0",
+    "@types/lodash": "^4.17.0",
+    "@types/node": "^20",
+    "@types/string-template": "^1.0.6",
+    "@typescript-eslint/eslint-plugin": "^7.1.1",
+    "@typescript-eslint/parser": "^7.1.1",
+    "eslint": "^8",
+    "eslint-config-next": "14.1.3",
+    "eslint-config-prettier": "^9.1.0",
+    "eslint-plugin-import": "^2.29.1",
+    "eslint-plugin-prettier": "^5.1.3",
+    "http-server": "^14.1.1",
+    "typescript": "^5"
+  }
+}

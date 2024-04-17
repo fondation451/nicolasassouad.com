@@ -1,0 +1,44 @@
+<p>
+  Let's consider the following scenario: we have a main branch, <code>main</code>, and we have worked on a new feature
+  by breaking it down into two successive branches, <code>featA</code> and <code>featB</code>.
+</p>
+<p class="component-code">
+  main&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;featA&nbsp;&nbsp;&nbsp;featB <br />
+  &nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|
+  <br />
+  &nbsp;v&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;v&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;v
+  <br />
+  &nbsp;ca--c1--c2--c3--c4--c5
+</p>
+<p>
+  Commits have been added to the main branch, and we would like to rebase our branches onto the new version of
+  <code>main</code>.
+</p>
+<p class="component-code">
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;main <br />
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;| <br />
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;v <br />
+  ca--cb--cc
+</p>
+<p>
+  To do this, we will perform two successive rebases: a simple one first, followed by one using the
+  <code>--onto</code> command.
+</p>
+<p class="component-code">git rebase main featA</p>
+<p class="component-code">git rebase --onto main c3 featB</p>
+<p>
+  The <code>--onto</code> command allows us to rebase a range of commits. Here, we are rebasing the commit range from
+  <code>c3</code> (exclusive) to <code>featB</code> onto <code>main</code>, which includes commits <code>c4--c5</code>.
+  By comparison, a simple rebase would have also rebased the commits from the old <code>featA</code> branch, resulting
+  in duplicate commits <code>c1--c2--c3</code>.
+</p>
+<p>We finally obtain the following commit tree:</p>
+<p class="component-code">
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;main&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;featA&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;featB
+  <br />
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|
+  <br />
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;v&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;v&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;v
+  <br />
+  ca--cb--cc--c1'--c2'--c3'--c4'--c5'
+</p>
