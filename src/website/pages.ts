@@ -1,8 +1,8 @@
 import { getResume } from "../resume";
-import { buildBlogContent } from "./buildBlogContent";
-import { buildBlogPostContent } from "./buildBlogPostContent";
-import { buildExperienceContent } from "./buildExperienceContent";
 import { buildPage } from "./buildPage";
+import { buildBlogComponent } from "./components/buildBlogComponent";
+import { buildBlogPostComponent } from "./components/buildBlogPostComponent";
+import { buildExperienceComponent } from "./components/buildExperienceComponent";
 
 const resumeFr = getResume("fr");
 const resumeEn = getResume("en");
@@ -21,18 +21,21 @@ export const pages = [
   buildPage({
     path: "/",
     title: { en: "About - Nicolas Assouad", fr: "À Propos - Nicolas Assouad" },
-    content: { en: resumeEn.description, fr: resumeFr.description },
+    content: {
+      en: `<div class="component-text-s">${resumeEn.description}</div>`,
+      fr: `<div class="component-text-s">${resumeFr.description}</div>`,
+    },
   }),
   buildPage({
     path: "/experience",
     title: { en: "Experience - Nicolas Assouad", fr: "Expérience - Nicolas Assouad" },
-    content: { en: buildExperienceContent(resumeEn), fr: buildExperienceContent(resumeFr) },
+    content: { en: buildExperienceComponent(resumeEn), fr: buildExperienceComponent(resumeFr) },
   }),
   buildPage({
     path: "/blog",
     title: { en: "Blog - Nicolas Assouad", fr: "Blog - Nicolas Assouad" },
     content: {
-      en: buildBlogContent({
+      en: buildBlogComponent({
         language: "en",
         posts: posts.map((post) => ({
           name: post.name,
@@ -41,7 +44,7 @@ export const pages = [
           tags: post.tags.en,
         })),
       }),
-      fr: buildBlogContent({
+      fr: buildBlogComponent({
         language: "fr",
         posts: posts.map((post) => ({
           name: post.name,
@@ -57,13 +60,13 @@ export const pages = [
       path: `/blog/${post.name}`,
       title: { en: `${post.title.en} - Nicolas Assouad`, fr: `${post.title.fr} - Nicolas Assouad` },
       content: {
-        en: buildBlogPostContent({
+        en: buildBlogPostComponent({
           title: post.title.en,
           date: post.date,
           tags: post.tags.en,
           postPath: post.path.en,
         }),
-        fr: buildBlogPostContent({
+        fr: buildBlogPostComponent({
           title: post.title.fr,
           date: post.date,
           tags: post.tags.fr,

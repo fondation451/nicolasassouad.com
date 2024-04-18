@@ -19,6 +19,7 @@ const buildPageHtml = ({
   return format(mainTemplate, {
     template__pageTitle: title,
     template__faviconPath: buildPublicLink("/public/favicon.ico"),
+    template__cssPath: buildPublicLink("/public/template.css"),
     template__githubIconPath: buildPublicLink("/public/github.svg"),
     template__linkedInIconPath: buildPublicLink("/public/linkedin.svg"),
     template__fullName: wordings.fullName,
