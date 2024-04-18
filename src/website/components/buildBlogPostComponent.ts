@@ -27,7 +27,7 @@ export const buildBlogPostComponent = ({
           .join("\n")}
       </div>
     </div>
-    <div class="component-text-s" style="display: flex; flex-direction: column; text-align: justify;">
+    <div class="component-text-s" style="display: flex; flex-direction: column;">
       ${post}
     </div>
   `;

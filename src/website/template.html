@@ -35,6 +35,13 @@
         font-family: inherit;
       }
 
+      @media screen and (max-width: 480px) {
+        ul {
+          list-style-position: inside;
+          padding-left: 0px;
+        }
+      }
+
       .component-card {
         width: 100%;
         border: 1px solid #e5e7eb;
@@ -50,7 +57,7 @@
           border: 1px solid #e5e7eb;
           border-radius: 8px;
           background-color: #ffffff;
-          padding: 8px;
+          padding: 12px;
           box-sizing: border-box;
         }
       }
@@ -83,21 +90,12 @@
         height: 24px;
       }
 
-      @media screen and (max-width: 480px) {
-        .component-icon-m {
-          font-size: 16px;
-          width: 16px;
-          height: 16px;
-        }
-      }
-
       .component-main-container {
         display: flex;
         gap: 20px;
         flex-direction: column;
         flex: 100;
         min-width: 540px;
-        text-align: justify;
         padding: 20px;
       }
 
@@ -108,7 +106,6 @@
           flex-direction: column;
           flex: 100;
           min-width: 300px;
-          text-align: justify;
           padding: 10px;
         }
       }
@@ -157,7 +154,7 @@
           align-content: center;
           justify-content: "center";
           width: "fit-content";
-          font-size: 10px;
+          font-size: 12px;
           font-weight: 700;
         }
       }
@@ -169,7 +166,7 @@
 
       @media screen and (max-width: 480px) {
         .component-text-s {
-          font-size: 10px;
+          font-size: 14px;
           line-height: 157%;
         }
       }
@@ -181,8 +178,8 @@
 
       @media screen and (max-width: 480px) {
         .component-text-m {
-          font-size: 12px;
-          line-height: 157%;
+          font-size: 16px;
+          line-height: 162%;
         }
       }
 
@@ -193,8 +190,8 @@
 
       @media screen and (max-width: 480px) {
         .component-text-l {
-          font-size: 14px;
-          line-height: 157%;
+          font-size: 18px;
+          line-height: 167%;
         }
       }
 
@@ -205,8 +202,8 @@
 
       @media screen and (max-width: 480px) {
         .component-text-xl {
-          font-size: 20px;
-          line-height: 157%;
+          font-size: 22px;
+          line-height: 167%;
         }
       }
 
@@ -217,8 +214,8 @@
 
       @media screen and (max-width: 480px) {
         .component-text-xxl {
-          font-size: 24px;
-          line-height: 157%;
+          font-size: 28px;
+          line-height: 167%;
         }
       }
     </style>
