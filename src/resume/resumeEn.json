@@ -229,15 +229,5 @@
       "language": "Spanish",
       "level": "Intermediate"
     }
-  ],
-  "interests": [
-    {
-      "title": "Music",
-      "items": ["15 years of guitar and singing", "Music writing"]
-    },
-    {
-      "title": "Sport",
-      "items": ["Hiking", "Bike", "Tennis", "Ski", "Skateboard"]
-    }
   ]
 }

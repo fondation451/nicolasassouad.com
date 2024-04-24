@@ -30,11 +30,6 @@ export type SpeakingLanguage = {
   level: string;
 };
 
-export type Interest = {
-  title: string;
-  items: string[];
-};
-
 export type Resume = {
   firstName: string;
   lastName: string;
@@ -46,7 +41,6 @@ export type Resume = {
   experiences: Experience[];
   studies: Study[];
   speakingLanguages: SpeakingLanguage[];
-  interests: Interest[];
 };
 
 const resumeFr: Resume = resumeFrJson;
@@ -177,10 +171,6 @@ ${resume.studies
 ${resume.speakingLanguages
   .map((speakingLanguage) => `\\cvitemwithcomment{${speakingLanguage.language}}{${speakingLanguage.level}}{}`)
   .join("\n")}
-
-\\section{${wordings.interests}}
-
-${resume.interests.map((interest) => `\\cvitem{${interest.title}}{${interest.items.join(", ")}}`).join("\n")}
 
 \\end{document}
 `;
