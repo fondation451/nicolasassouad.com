@@ -334,10 +334,10 @@
   <code>--onto</code>.
 </p>
 <p class="component-code">git rebase main featA</p>
-<p class="component-code">git rebase --onto main c3 featB</p>
+<p class="component-code">git rebase --onto featA c3 featB</p>
 <p>
   La commande <code>--onto</code> permet de rebase un interval de commits. Ici, on rebase sur
-  <code>main</code> l'interval de commits allant de <code>c3</code> (non inclus) à <code>featB</code>, c'est à dire
+  <code>featA</code> l'interval de commits allant de <code>c3</code> (non inclus) à <code>featB</code>, c'est à dire
   <code>c4--c5</code>. A titre de comparaison, un rebase simple aurait rebase également les commits de l'ancienne
   branche <code>featA</code>, et donc dédoubler les commits <code>c1--c2--c3</code>.
 </p>

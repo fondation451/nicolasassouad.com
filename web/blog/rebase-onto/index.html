@@ -333,10 +333,10 @@
   <code>--onto</code> command.
 </p>
 <p class="component-code">git rebase main featA</p>
-<p class="component-code">git rebase --onto main c3 featB</p>
+<p class="component-code">git rebase --onto featA c3 featB</p>
 <p>
   The <code>--onto</code> command allows us to rebase a range of commits. Here, we are rebasing the commit range from
-  <code>c3</code> (exclusive) to <code>featB</code> onto <code>main</code>, which includes commits <code>c4--c5</code>.
+  <code>c3</code> (exclusive) to <code>featB</code> onto <code>featA</code>, which includes commits <code>c4--c5</code>.
   By comparison, a simple rebase would have also rebased the commits from the old <code>featA</code> branch, resulting
   in duplicate commits <code>c1--c2--c3</code>.
 </p>
