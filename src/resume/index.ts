@@ -34,6 +34,7 @@ export type Resume = {
   firstName: string;
   lastName: string;
   email: string;
+  website: string;
   linkedIn: string;
   github: string;
   description: string;
@@ -116,7 +117,7 @@ export const resumetoLatex = (language: string) => {
 %\\phone[fixed]{+2~(345)~678~901}
 %\\phone[fax]{+3~(456)~789~012}
 \\email{${resume.email}}                               % optional, remove / comment the line if not wanted
-%\\homepage{www.nicolasAssouad.com}                         % optional, remove / comment the line if not wanted
+\\homepage{${resume.website}}                         % optional, remove / comment the line if not wanted
 \\social[linkedin]{${resume.linkedIn}}                        % optional, remove / comment the line if not wanted
 %\\social[twitter]{assouad}                             % optional, remove / comment the line if not wanted
 \\social[github]{${resume.github}}                              % optional, remove / comment the line if not wanted
