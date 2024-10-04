@@ -33,7 +33,6 @@ export type SpeakingLanguage = {
 export type Resume = {
   firstName: string;
   lastName: string;
-  email: string;
   website: string;
   linkedIn: string;
   github: string;
@@ -116,7 +115,7 @@ export const resumetoLatex = (language: string) => {
 %\\phone[mobile]{phone}                   % optional, remove / comment the line if not wanted; the optional "type" of the phone can be "mobile" (default), "fixed" or "fax"
 %\\phone[fixed]{+2~(345)~678~901}
 %\\phone[fax]{+3~(456)~789~012}
-\\email{${resume.email}}                               % optional, remove / comment the line if not wanted
+%\\email{}                               % optional, remove / comment the line if not wanted
 \\homepage{${resume.website}}                         % optional, remove / comment the line if not wanted
 \\social[linkedin]{${resume.linkedIn}}                        % optional, remove / comment the line if not wanted
 %\\social[twitter]{assouad}                             % optional, remove / comment the line if not wanted
