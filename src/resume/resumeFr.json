@@ -6,7 +6,13 @@
   "github": "fondation451",
   "description": "Je suis ingénieur logiciel et entrepreneur. Expert en technologie web, je suis particulièrement attentif à la qualité dans le développement logiciel, que ce soit au niveau de l'UX ou du code. Au cours de mes différentes expériences, j'ai évolué dans le monde de la recherche, des scale-ups, des start-ups et de l'entrepreneuriat public et privé.",
   "skills": [
+    { "category": "Web3", "name": "Blockchain" },
+    { "category": "Web3", "name": "EVM" },
+    { "category": "Web3", "name": "Solidity" },
+    { "category": "Web3", "name": "Starknet" },
+    { "category": "Web3", "name": "Stellar" },
     { "category": "Langage", "name": "TS" },
+    { "category": "Langage", "name": "Effect" },
     { "category": "Langage", "name": "JS" },
     { "category": "Langage", "name": "Rust" },
     { "category": "Langage", "name": "OCaml" },
@@ -34,8 +40,19 @@
   ],
   "experiences": [
     {
-      "start": "10/2023",
+      "start": "09/2024",
       "end": "Aujourd'hui",
+      "title": "Senior Software Engineer",
+      "skills": ["TS", "Effect", "React", "Blockchain", "EVM", "Starknet", "Stellar", "Git"],
+      "company": "Spiko",
+      "location": "Paris",
+      "link": "https://www.spiko.io/fr",
+      "body": "",
+      "facts": ["Travailler sur l'ensemble des aspects de la plateforme"]
+    },
+    {
+      "start": "10/2023",
+      "end": "09/2024",
       "title": "Senior Software Engineer",
       "skills": ["C#", "TS", "Angular", "SQL", "Git"],
       "company": "Lucca",

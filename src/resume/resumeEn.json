@@ -6,6 +6,11 @@
   "github": "fondation451",
   "description": "I am a software engineer and entrepreneur with a deep understanding of web technology and a keen eye for quality in software development, from user experience to coding. My diverse experiences have taken me through research, scale-ups, start-ups, and both public and private entrepreneurship.",
   "skills": [
+    { "category": "Web3", "name": "Blockchain" },
+    { "category": "Web3", "name": "EVM" },
+    { "category": "Web3", "name": "Solidity" },
+    { "category": "Web3", "name": "Starknet" },
+    { "category": "Web3", "name": "Stellar" },
     { "category": "Language", "name": "TS" },
     { "category": "Language", "name": "JS" },
     { "category": "Language", "name": "Rust" },
@@ -34,8 +39,19 @@
   ],
   "experiences": [
     {
-      "start": "10/2023",
+      "start": "09/2024",
       "end": "Present",
+      "title": "Senior Software Engineer",
+      "skills": ["TS", "Effect", "React", "Blockchain", "EVM", "Starknet", "Stellar", "Git"],
+      "company": "Spiko",
+      "location": "Paris",
+      "link": "https://www.spiko.io/",
+      "body": "",
+      "facts": ["Working on the all aspects of the platform"]
+    },
+    {
+      "start": "10/2023",
+      "end": "09/2024",
       "title": "Senior Software Engineer",
       "skills": ["C#", "TS", "Angular", "SQL", "Git"],
       "company": "Lucca",
