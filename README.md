@@ -1,3 +1,0 @@
-# nicolasassouad
-
-My personal website.
